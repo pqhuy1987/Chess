@@ -742,7 +742,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex {
       CGRect r = [[navigationController view] frame];
       // Why do I suddenly have to use -20.0f for the Y coordinate below?
       // 0.0f seems right, and used to work in SDK 2.x.
-      r.origin = CGPointMake(0.0f, -20.0f);
+      r.origin = CGPointMake(0.0f, 0.0f);
       [[navigationController view] setFrame: r];
       [rootView insertSubview: [navigationController view] atIndex: 0];
       [rootView flipSubviewsLeft];
@@ -802,7 +802,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex {
       CGRect r = [[navigationController view] frame];
       // Why do I suddenly have to use -20.0f for the Y coordinate below?
       // 0.0f seems right, and used to work in SDK 2.x.
-      r.origin = CGPointMake(0.0f, -20.0f);
+      r.origin = CGPointMake(0.0f, 0.0f);
       [[navigationController view] setFrame: r];
       [rootView insertSubview: [navigationController view] atIndex: 0];
       [rootView flipSubviewsLeft];
@@ -862,7 +862,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex {
       CGRect r = [[navigationController view] frame];
       // Why do I suddenly have to use -20.0f for the Y coordinate below?
       // 0.0f seems right, and used to work in SDK 2.x.
-      r.origin = CGPointMake(0.0f, -20.0f);
+      r.origin = CGPointMake(0.0f, 0.0f);
       [[navigationController view] setFrame: r];
       [rootView insertSubview: [navigationController view] atIndex: 0];
       [rootView flipSubviewsLeft];
@@ -927,7 +927,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex {
       CGRect r = [[navigationController view] frame];
       // Why do I suddenly have to use -20.0f for the Y coordinate below?
       // 0.0f seems right, and used to work in SDK 2.x.
-      r.origin = CGPointMake(0.0f, -20.0f);
+      r.origin = CGPointMake(0.0f, 0.0f);
       [[navigationController view] setFrame: r];
       [rootView insertSubview: [navigationController view] atIndex: 0];
       [rootView flipSubviewsLeft];
@@ -987,7 +987,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex {
       CGRect r = [[navigationController view] frame];
       // Why do I suddenly have to use -20.0f for the Y coordinate below?
       // 0.0f seems right, and used to work in SDK 2.x.
-      r.origin = CGPointMake(0.0f, -20.0f);
+      r.origin = CGPointMake(0.0f, 0.0f);
       [[navigationController view] setFrame: r];
       [rootView insertSubview: [navigationController view] atIndex: 0];
       [rootView flipSubviewsLeft];
